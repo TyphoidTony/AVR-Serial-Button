@@ -15,3 +15,7 @@ Currently a lot of things need to be done for the host. As of right now, a butto
 - ~~Compile C sources for the lua libraries used (luars232 and uinput respectivly)~~
 - pressedByte and releasedByte to allow continous transmission 
 - Some form of background process or deamon for the lua script to run on startup and in the background
+
+### Requirements
+
+- lua 5.1 
