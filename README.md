@@ -1,5 +1,5 @@
 # Avr-Serial-Button
-A very simple way to create a single keyboard press from A Atmeg8 microcontroller via serial communication. USB solution to follow. 
+A very simple way to create a single keyboard press from A Atmeg8 microcontroller via serial communication. 
 
 
 ## Notes &  Limitations 
@@ -18,4 +18,13 @@ Currently a lot of things need to be done for the host. As of right now, a butto
 
 ### Requirements
 
-- lua 5.1 
+- lua 5.1 or later. 
+- libncursesw-dev
+- libncurses-dev
+- libgirepository1.0-dev
+
+### Libraries Used
+
+- Luars232
+- Uinput
+- Abstk
